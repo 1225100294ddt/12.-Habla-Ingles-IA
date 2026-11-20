@@ -1,0 +1,46 @@
+TAP version 13
+# Subtest: acepta historial válido y nivel MCER
+ok 1 - acepta historial válido y nivel MCER
+  ---
+  duration_ms: 1.32929
+  type: 'test'
+  ...
+# Subtest: rechaza texto mayor a 500 caracteres
+ok 2 - rechaza texto mayor a 500 caracteres
+  ---
+  duration_ms: 0.451514
+  type: 'test'
+  ...
+# Subtest: rechaza roles que no alternan
+ok 3 - rechaza roles que no alternan
+  ---
+  duration_ms: 0.303867
+  type: 'test'
+  ...
+# Subtest: prompt limita correcciones y exige pregunta
+ok 4 - prompt limita correcciones y exige pregunta
+  ---
+  duration_ms: 0.264503
+  type: 'test'
+  ...
+# Subtest: valida y recorta estructura de salida
+ok 5 - valida y recorta estructura de salida
+  ---
+  duration_ms: 0.698592
+  type: 'test'
+  ...
+# Subtest: rechaza JSON incompleto
+ok 6 - rechaza JSON incompleto
+  ---
+  duration_ms: 0.402132
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 92.797804
